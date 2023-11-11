@@ -1,0 +1,33 @@
+main{
+	display: grid;
+	grid-template: 1fr/1fr;
+}
+
+main > section{
+	display: flex;
+	justify-content: center;
+}
+
+#headline{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#headline img{
+	height: 25rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+#body-content{
+	display: grid;
+	grid-template: 1fr/1fr 1fr 1fr;
+}
+
+#side-articles{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

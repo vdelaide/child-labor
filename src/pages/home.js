@@ -27,28 +27,58 @@ const Home = () =>{
 
 					<aside id={style["side-articles"]}>
 
-						<article>
-							<a href="https://google.com">
-								placeholder
-							</a>
-						</article>
+						<Sidearticle 
+						link=""
+						textSrc=""
+						textAlt=""
+						author=""
+						/>
 
-						<article>
-							<a href="https://google.com">
-								placeholder
-							</a>
-						</article>
+						<Sidearticle 
+						link=""
+						textSrc=""
+						textAlt=""
+						author=""
+						/>
 
-						<article>
-							<a href="https://google.com">
-								placeholder
-							</a>
-						</article>
+						<Sidearticle 
+						link=""
+						textSrc=""
+						textAlt=""
+						author=""
+						/>
+
+						<Sidearticle
+						link=""
+						textSrc=""
+						textAlt=""
+						author=""
+						/>
 
 					</aside>
 
 					<p id={style["body-text"]}>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+						<div> {/*introduction*/}
+
+						</div>
+
+						<div> {/*body 1*/}
+
+						</div>
+
+						<div> {/*body 2*/}
+
+						</div>
+
+						<div> {/*body 3*/}
+
+						</div>
+
+						<div> {/*conclusion*/}
+
+						</div>
+
 					</p>
 
 				</section>
@@ -56,6 +86,21 @@ const Home = () =>{
 			</main>
 
 		</React.Fragment>
+	);
+};
+
+const Sidearticle = ({link, textSrc, textAlt, author}) =>{
+	return(
+		<article>
+
+			<a href={link}>
+
+				<img src={textSrc} alt={textAlt}/>
+				<cite>{author}</cite>
+
+			</a>
+
+		</article>
 	);
 };
 

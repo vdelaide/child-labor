@@ -4,7 +4,11 @@ import style from "./header.module.css";
 const Header = () =>{
 	return(
 		<header>
-			<p>placeholder</p>
+			<nav id={style["primary-nav"]}>
+
+				<a id={style["logo"]} href="https://google.com">The Adelaide Dispatch</a>
+
+			</nav>
 		</header>
 	);
 };

@@ -1,6 +1,6 @@
 main{
-	display: grid;
-	grid-template: 1fr/1fr;
+	display: flex;
+	flex-direction: column;
 }
 
 main > section{
@@ -22,12 +22,27 @@ main > section{
 
 #body-content{
 	display: grid;
-	grid-template: 1fr/1fr 1fr 1fr;
+	grid-template: 1fr/0.2fr 0.65fr 0.15fr; /*uncenters the title with the text :C, fix l8r*/
 }
 
 #side-articles{
 	display: flex;
 	flex-direction: column;
+	position: sticky;
+	align-items: center;
+	height: 100%;
+}
+
+#side-articles > article{
+	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0.5rem 0;
+	height: 6rem;
+	width: 20rem;
+	border-radius: 1rem;
+}
+
+#body-text{
+	text-indent: 25px;
 }

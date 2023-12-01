@@ -1,3 +1,4 @@
+*{outline: solid 1px lightgreen}
 html{
 	height: 100%;
 	width: 100%;
@@ -11,4 +12,8 @@ body{
 
 h1, h2, h3, h4, h5, h6, a, p{
 	margin: 0;
+}
+
+cite{
+	font-style: normal;
 }

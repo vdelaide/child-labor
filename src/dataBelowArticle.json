@@ -1,0 +1,12 @@
+{
+	"below-articles": {
+		"example-article": {
+			"below-author": "random name yay",
+			"below-headline": "something something something",
+			"below-img-credit": "by idk getty images",
+			"below-src": "placeholder",
+			"below-alt": "placeholder2",
+			"below-href": "google.com"
+		}
+	}
+}

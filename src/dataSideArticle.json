@@ -1,0 +1,12 @@
+{
+	"side-articles": {
+		"example-article": {
+			"side-author": "random name yay",
+			"side-headline": "something something something",
+			"side-src": "google.jpeg",
+			"side-alt": "google's logo",
+			"side-text-time": "5 Nov. 2023",
+			"side-datetime": "2023-11-10"
+		}
+	}
+}

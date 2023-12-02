@@ -27,28 +27,28 @@ const Home = () =>{
 
 					<aside id={style["side-articles"]}>
 
-						<Sidearticle 
+						<All.Sidearticle 
 						link="placeholder.com"
 						textSrc="placeholder.jpg"
 						textAlt="placeholder"
 						author="adelaide"
 						/>
 
-						<Sidearticle 
+						<All.Sidearticle 
 						link="placeholder.com"
 						textSrc="placeholder.jpg"
 						textAlt="placeholder"
 						author="adelaide"
 						/>
 
-						<Sidearticle 
+						<All.Sidearticle 
 						link="placeholder.com"
 						textSrc="placeholder.jpg"
 						textAlt="placeholder"
 						author="adelaide"
 						/>
 						
-						<Sidearticle 
+						<All.Sidearticle 
 						link="placeholder.com"
 						textSrc="placeholder.jpg"
 						textAlt="placeholder"
@@ -88,25 +88,25 @@ const Home = () =>{
 					</aside>
 
 				</section>
+
+				<section id={style["articles"]}>
+
+					<ul>
+
+						<All.BelowArticle 
+						src="placeholder"
+						alt="placeholder"
+						figCaption="placeholder"
+						author="placeholder"
+						/>
+						
+					</ul>
+
+				</section>
 				
 			</main>
 
 		</React.Fragment>
-	);
-};
-
-const Sidearticle = ({link, textSrc, textAlt, author}) =>{
-	return(
-		<article>
-
-			<a href={link}>
-
-				<img src={textSrc} alt={textAlt}/>
-				<cite>{author}</cite>
-
-			</a>
-
-		</article>
 	);
 };
 

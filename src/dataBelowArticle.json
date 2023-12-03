@@ -1,12 +1,20 @@
 {
-	"below-articles": {
-		"example-article": {
-			"below-author": "random name yay",
-			"below-headline": "something something something",
-			"below-img-credit": "by idk getty images",
-			"below-src": "placeholder",
-			"below-alt": "placeholder2",
-			"below-href": "google.com"
+	"below-articles": [
+		{
+			"author": "random name yay",
+			"headline": "something something something",
+			"caption": "by idk getty images",
+			"src": "placeholder",
+			"alt": "placeholder2",
+			"href": "google.com"
+		},
+		{
+			"author": "random name yay",
+			"headline": "something something something",
+			"caption": "by idk getty images",
+			"src": "placeholder",
+			"alt": "placeholder2",
+			"href": "google.com"
 		}
-	}
+	]
 }

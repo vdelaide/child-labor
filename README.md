@@ -22,6 +22,6 @@ Placeholder :)
 
 - The content of the article is purely satirical, and whether or not child labor is ethical, right or wrong, is not the reason I'm making this website and is not any point I'm trying to make.
 - I don't own any of the images presented in this webpage.
-- All credit for the main article headline goes to Alfred Eisenstaedt.
+- All credit for the main article photo goes to Alfred Eisenstaedt.
 - All credit for the sidearticles and below articles are to their respective photographers
 - You can find the specific links for those images in data.json, dataBelowArticle.json, or dataSideArticle.json

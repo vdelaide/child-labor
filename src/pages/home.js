@@ -1,6 +1,9 @@
 import React from "react";
 import style from "./home.module.css";
 
+import BelowArticles from "./sections/belowarticles";
+import SideArticles from "./sections/sidearticles";
+
 // import Data from "../data.json";
 import * as All from "../components/index";
 
@@ -25,37 +28,7 @@ const Home = () =>{
 
 				<section id={style["body-content"]}>
 
-					<aside id={style["side-articles"]}>
-
-						<All.Sidearticle 
-						link="placeholder.com"
-						textSrc="placeholder.jpg"
-						textAlt="placeholder"
-						author="adelaide"
-						/>
-
-						<All.Sidearticle 
-						link="placeholder.com"
-						textSrc="placeholder.jpg"
-						textAlt="placeholder"
-						author="adelaide"
-						/>
-
-						<All.Sidearticle 
-						link="placeholder.com"
-						textSrc="placeholder.jpg"
-						textAlt="placeholder"
-						author="adelaide"
-						/>
-						
-						<All.Sidearticle 
-						link="placeholder.com"
-						textSrc="placeholder.jpg"
-						textAlt="placeholder"
-						author="adelaide"
-						/>
-
-					</aside>
+					<SideArticles />
 
 					<p id={style["body-text"]}>
 
@@ -88,23 +61,10 @@ const Home = () =>{
 					</aside>
 
 				</section>
-
-				<section id={style["articles"]}>
-
-					<ul>
-
-						<All.BelowArticle 
-						src="placeholder"
-						alt="placeholder"
-						figCaption="placeholder"
-						author="placeholder"
-						/>
-						
-					</ul>
-
-				</section>
 				
 			</main>
+
+			<BelowArticles />
 
 		</React.Fragment>
 	);

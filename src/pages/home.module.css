@@ -51,8 +51,3 @@ main > section{
 #body-text{
 	text-indent: 25px;
 }
-
-#articles ul{
-	display: flex;
-	width: 100%;
-}

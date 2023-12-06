@@ -29,6 +29,7 @@ const BelowArticles = () =>{
 	};
 
 	articlesData.forEach(handleArticleData)
+	
 	return(
 		<section id={style["articles"]}>
 
@@ -44,7 +45,7 @@ const BelowArticles = () =>{
 
 const BelowArticle = ({href, src, alt, figCaption, author}) =>{
 	return(
-		<li>
+		<li className={style["below-article"]}>
 			<article>
 				<a href={href}>
 
